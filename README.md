@@ -4,12 +4,13 @@ This is an API built with Python 3, using the Flask and MongoDB microframeworks,
 
 ## Dependencies
 
-Pymongo -> Managing MongoDB with Python (database operations)
-Flask -> Microframework for creating a Web Server
-Jsonify -> Sending JSON to the client (using Python dictionaries)
-Request -> Capturing client information via QueryString
+- Pymongo: Managing MongoDB with Python (database operations)
+- Flask: Microframework for creating a Web Server
+- Jsonify: Sending JSON to the client (using Python dictionaries)
+- Request: Capturing client information via QueryString
 
 ## API Run
+
 - Assuming MongoDB is installed
 
 ```
