@@ -1,31 +1,30 @@
-## davidCoin
+## CoinMarketCap API with Flask
 
-DavidCoin es una API creada con Python3, bajo el microframework Flask y MongoDB para la construccion de una
-experiencia con datos reales de criptomonedas (coinmarketcap)
+This is an API built with Python 3, using the Flask and MongoDB microframeworks, for building an experience with real cryptocurrency data (coinmarketcap).
 
-## Dependencias
+## Dependencies
 
-  Pymongo -> manejo de mongoDB con Python (operaciones en la BD)
-  Flask -> microframework para crear un Servidor Web
-  Jsonify -> enviar JSON al clientes (usando diccionarios de Python)
-  Request -> capturar informacion del cliente a traves del QueryString
+Pymongo -> Managing MongoDB with Python (database operations)
+Flask -> Microframework for creating a Web Server
+Jsonify -> Sending JSON to the client (using Python dictionaries)
+Request -> Capturing client information via QueryString
 
 ## API Run
-  - Asumiendo mongoDB instalado
+- Assuming MongoDB is installed
 
-  ```
-    python3 agent/main.py
-  ```
+```
+python3 agent/main.py
+```
 
-  - python3 api/main.py
+- python3 api/main.py
 
 ## URLs
 
-  - GET ('/', '/top-20','/tickers')
-  - DELETE ('/tickers?name="COIN_NAME"')
+- GET ('/', '/top-20','/tickers')
+- DELETE ('/tickers?name="COIN_NAME"')
 
-## Créditos
-[David E Lares S](https://davidlares.com)
+## Credits
+[David Lares S](https://davidlares.com)
 
-## Licencia
+## License
 [MIT](https://opensource.org/licenses/MIT)
